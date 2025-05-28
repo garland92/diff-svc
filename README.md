@@ -3,7 +3,7 @@ Singing Voice Conversion via diffusion model
 
 install
 >pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu113
-pip install -r requirements.txt
+>pip install -r requirements.txt
 
 ## updates:
 >2022.12.4 44.1kHz声码器开放申请，正式提供对44.1kHz的支持\
