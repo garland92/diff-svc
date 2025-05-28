@@ -1,6 +1,10 @@
 # Diff-SVC
 Singing Voice Conversion via diffusion model
 
+install
+>pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu113
+pip install -r requirements.txt
+
 ## updates:
 >2022.12.4 44.1kHz声码器开放申请，正式提供对44.1kHz的支持\
 2022.11.28 增加了默认打开的no_fs2选项，可优化部分网络，提升训练速度、缩减模型体积，对于未来新训练的模型有效\
